@@ -1,0 +1,19 @@
+# --- PHP & Server ---
+# Exclude dependintele (daca vei folosi Composer pe viitor)
+vendor/
+
+# --- Baze de date ---
+# Este periculos sa urci scripturile SQL cu date reale pe GitHub
+*.sql
+# Daca vrei totusi sa pastrezi scriptul de structura, poti comenta linia de mai sus cu #
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Log-uri si Cache ---
+*.log
+errors.log
+/images/temp/
